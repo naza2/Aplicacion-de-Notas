@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Docket Notes</title>
+  <link rel="stylesheet" href="Tarea.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Docket</h2>
+
+    <div class="add-container" id="addContainer">
+      <button id="addNoteBtn" class="add-btn">+</button>
+
+      <!-- Menú de colores -->
+      <div class="color-menu" id="colorMenu">
+        <div class="color-dot" data-color="#ffb347" style="background:#ffb347;"></div>
+        <div class="color-dot" data-color="#ff7043" style="background:#ff7043;"></div>
+        <div class="color-dot" data-color="#b39ddb" style="background:#b39ddb;"></div>
+        <div class="color-dot" data-color="#4fc3f7" style="background:#4fc3f7;"></div>
+        <div class="color-dot" data-color="#dce775" style="background:#dce775;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="header">
+      <input type="text" id="search" placeholder="Search">
+    </div>
+
+    <h1>Notes</h1>
+    <div id="notesContainer" class="notes-container"></div>
+  </div>
+
+  <script src="Tarea.js"></script>
+</body>
+</html>
